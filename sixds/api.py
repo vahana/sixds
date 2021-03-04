@@ -41,8 +41,7 @@ def add_movie(movie, actors):
         if actor not in Actors:
             ActorGraph.add_node(actor)
             Actors.add(actor)
-
-        ActorGraph.add_edge(movie, actor)
+            ActorGraph.add_edge(movie, actor)
 
 
 def shortest_path(actors):
