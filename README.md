@@ -1,7 +1,7 @@
 # sixds
 Six degree of separation.
 
-sixds is an RESTful service built on top of [prf](https://github.com/vahana/prf) framework that exposes various end points to play with becon distances.
+sixds is a RESTful service built on top of [prf](https://github.com/vahana/prf) framework that exposes various end-points to play with becon distances.
 
 ### Python dependencies
 ```
