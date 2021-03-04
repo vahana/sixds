@@ -30,11 +30,6 @@ To get distance between any 2 actors:
 
 e.g. http://localhost:6543/distance?actors=Brad+Pitt,Rossie+Cottrell
 
-To see actors in the movie:
-`http://localhost:6543/movies/<movie name>`
-
-e.g. `http://localhost:6543/movies/Tangled`
-
 To add a new movie:
 `http://localhost:6543/movies?_m=POST&movie=<movie_name>&actors=<comma separated names>`
 
@@ -44,5 +39,10 @@ To add an actor to an existing movie:
 `http://localhost:6543/movies/<movie_name>?_m=PUT&actors=<comma-separated names>`
 
 e.g. http://localhost:6543/movies/XYZ?_m=PUT&actors=Julia,Bob
+
+To see actors in the movie:
+`http://localhost:6543/movies/<movie name>`
+
+e.g. http://localhost:6543/movies/XYZ
 
 *Data file used from: https://www.kaggle.com/tmdb/tmdb-movie-metadata*
