@@ -1,23 +1,23 @@
-#sixds
+# sixds
 Six degree of separation.
 
 sixds is an RESTful service built on top of [prf](https://github.com/vahana/prf) framework that exposes various end points to play with becon distances.
 
-###Python dependencies
+### Python dependencies
 ```
 pandas
 networkx
 prf
 ```
 
-###Installation
+### Installation
 
 1. `python3 -m venv /tmp/sixds_env`
 2. `source /tmp/sixds_env/bin/activate`
 3. `pip install -r requirements.txt`
 4. `pserve development.ini`
 
-###Usage
+### Usage
 
 To list all endpoints:
 `http://localhost:6543/_`
