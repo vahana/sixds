@@ -10,12 +10,16 @@ networkx
 prf
 ```
 
-### Installation
+### Virtual env setup
 
 1. `python3 -m venv /tmp/sixds_env`
 2. `source /tmp/sixds_env/bin/activate`
 3. `pip install -r requirements.txt`
 4. `pserve development.ini`
+
+### Docker container setup
+1. `docker build -t sixds .`
+2. `docker run --rm -it -p 6543:6543 sixds`
 
 ### Usage
 
