@@ -27,18 +27,22 @@ To test random actors with Kevin Bacon:
 
 To get distance between any 2 actors:
 `http://localhost:6543/distance?actors=<comma-separated names>`
-e.g. `http://localhost:6543/distance?actors=Brad+Pitt,Rossie+Cottrell`
+
+*e.g. `http://localhost:6543/distance?actors=Brad+Pitt,Rossie+Cottrell`*
 
 To see actors in the movie:
 `http://localhost:6543/movies/<movie name>`
-e.g. `http://localhost:6543/movies/Tangled`
+
+*e.g. `http://localhost:6543/movies/Tangled`*
 
 To add a new movie:
 `http://localhost:6543/movies?_m=POST&movie=<movie_name>&actors=<comma separated names>`
+
 e.g. `http://localhost:6543/movies?_m=POST&movie=XYZ&actors=Vahan,Kevin+Bacon`
 
 To add an actor to an existing movie:
 `http://localhost:6543/movies/<movie_name>?_m=PUT&actors=<comma-separated names>`
-e.g. `http://localhost:6543/movies/XYZ?_m=PUT&actors=Julia,Bob`
+
+*e.g. `http://localhost:6543/movies/XYZ?_m=PUT&actors=Julia,Bob`*
 
 *Data file used from: https://www.kaggle.com/tmdb/tmdb-movie-metadata*
